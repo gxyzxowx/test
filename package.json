@@ -1,0 +1,26 @@
+{
+  "name": "23driver-school",
+  "version": "1.0.0",
+  "description": "考试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxyzxowx/driver-school.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "wendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gxyzxowx/driver-school/issues"
+  },
+  "homepage": "https://github.com/gxyzxowx/driver-school#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
