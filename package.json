@@ -4,7 +4,7 @@
   "description": "考试",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,19 @@
   },
   "homepage": "https://github.com/gxyzxowx/driver-school#readme",
   "devDependencies": {
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "browserslist": [
+    "last 2 Version",
+    "> 2%"
+  ],
+  "dependencies": {
+    "gulp-less": "^4.0.1"
   }
 }
